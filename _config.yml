@@ -69,7 +69,6 @@ gitalk:
   admin: kongchong
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
   pagerDirection: true
-  labels: Gitalk
 
 
 # 统计
