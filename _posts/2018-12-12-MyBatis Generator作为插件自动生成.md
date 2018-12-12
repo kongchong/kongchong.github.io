@@ -35,7 +35,7 @@ tags:
 
 
 
-1. 指定maven项目pom中引入插件
+1.指定maven项目pom中引入插件
 
 ```xml
 <plugin>
@@ -63,7 +63,7 @@ tags:
 
 
 
-2. 项目resources目录下引入MBG配置文件
+2.项目resources目录下引入MBG配置文件
 
 ```xml-dtd
 <?xml version="1.0" encoding="UTF-8"?>
