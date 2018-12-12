@@ -154,4 +154,4 @@ tags:
 </generatorConfiguration>
 ```
 
-这里配置文件的名称要与plugin configurationFile配置中的名称保持一致，否则执行生成命令时是找不到的
+这里配置文件的名称要与plugin configurationFile配置中的名称保持一致，否则执行生成命令时是找不到配置的
