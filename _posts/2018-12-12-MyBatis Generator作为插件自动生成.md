@@ -91,7 +91,7 @@ tags:
         <property name="mergeable" value="false"/>
 
         <!-- <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-             <property name="mappers" value="com.ydt.framework.mybatis.mapper.BaseMapper" />
+             <property name="mappers" value="com.kc.mybatis.mapper.BaseMapper" />
          </plugin>-->
 
         <!-- 格式化java代码 -->
@@ -206,3 +206,12 @@ tags:
 2. idea中执行插件命令
 
    ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fy51ogy5ilj30u013c7hn.jpg)
+
+#### 实体类继承通用maper
+
+对于使用通用mapper的小伙伴 如果想一劳永逸的话可以直接在生成mapper接口文件时继承你想继承的通用mapper类  只需要再插件中增加通用mapper的依赖
+
+![](https://ws2.sinaimg.cn/large/006tNbRwgy1fy524gir3mj30j80ermzh.jpg)
+
+然后把MBG配置文件中 plugin 标签的那段代码打开即可  value 值是你想要继承的通用mapper的类的全路径
+
