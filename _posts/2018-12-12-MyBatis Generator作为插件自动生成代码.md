@@ -207,7 +207,7 @@ tags:
 
    ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fy51ogy5ilj30u013c7hn.jpg)
 
-#### 实体类继承通用maper
+#### mapper接口继承通用maper
 
 对于使用通用mapper的小伙伴 如果想一劳永逸的话可以直接在生成mapper接口文件时继承你想继承的通用mapper类  只需要再插件中增加通用mapper的依赖
 
