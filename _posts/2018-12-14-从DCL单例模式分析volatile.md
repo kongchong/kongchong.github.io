@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      从DCL(double check lock)单例模式分析volatile
+title:      从DCL单例模式分析volatile
 subtitle:   程序员进阶不能不了解的关键字
 date:       2018-12-14
 author:     KC
