@@ -1,4 +1,3 @@
-```
 ---
 layout:     post
 title:      SpringBoot中web项目全局异常处理
@@ -13,7 +12,6 @@ tags:
     - ControllerAdvice
     - ExceptionHandler
 ---
-```
 
 > ControllerAdvice + ExceptionHandler + ResponseBody全局异常处理
 
