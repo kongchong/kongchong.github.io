@@ -201,17 +201,17 @@ tags:
 
 1. 项目根目录下执行 mvn mybatis-generator:generate 命令
 
-   ![](https://ws3.sinaimg.cn/large/006tNbRwgy1fy51n4tprlj312j0g5n0a.jpg)
+   ![](http://www.kcblog.cn/img/2018-12-12/1.jpg)
 
 2. idea中执行插件命令
 
-   ![](https://ws4.sinaimg.cn/large/006tNbRwgy1fy51ogy5ilj30u013c7hn.jpg)
+   ![](http://www.kcblog.cn/img/2018-12-12/2.jpg)
 
 #### mapper接口继承通用maper
 
 对于使用通用mapper的小伙伴 如果想一劳永逸的话可以直接在生成mapper接口文件时继承你想继承的通用mapper类  只需要再插件中增加通用mapper的依赖
 
-![](https://ws2.sinaimg.cn/large/006tNbRwgy1fy524gir3mj30j80ermzh.jpg)
+![](http://www.kcblog.cn/img/2018-12-12/3.jpg)
 
 然后把MBG配置文件中 plugin 标签的那段代码打开即可  value 值是你想要继承的通用mapper的类的全路径
 

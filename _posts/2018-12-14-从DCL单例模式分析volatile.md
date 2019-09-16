@@ -23,7 +23,7 @@ tags:
 
 以懒汉式为例，流传最多的是以下这种写法
 
-![](https://ws3.sinaimg.cn/large/006tNbRwgy1fy541g4dc7j30l808it9p.jpg)
+![](http://www.kcblog.cn/img/2018-12-14/1.jpg)
 
 大概流程是
 
@@ -35,7 +35,7 @@ tags:
 
 这种写法直接在方法上加同步锁是十分消耗性能的，大部分场景下并不适用，相信很多人也意识到这个问题了，于是就有了下面的改进
 
-![](https://ws3.sinaimg.cn/large/006tNbRwgy1fy5463j1tdj30jx0b1abd.jpg)
+![](http://www.kcblog.cn/img/2018-12-14/2.jpg)
 
 #### 存在问题
 
@@ -53,7 +53,7 @@ tags:
 
 java为了实现这一目标在编译时会对代码进行重新排序，从而达到更高的并行度提升程序性能。Java 在进行重排序操作时会遵守**数据依赖性**，即编译器和处理器不会改变存在数据依赖关系的两个操作的执行顺序。如下几行代码
 
-![](https://ws2.sinaimg.cn/large/006tNbRwgy1fy55umzwawj30cq036jrg.jpg)
+![](http://www.kcblog.cn/img/2018-12-14/3.jpg)
 
 这里java语言有可能会对第28行和29行的代码进行重排序，由此会导致运行顺序不一致，但对最终的运行结果不会产生影响，但30行代码不会重排序到28行代码前执行，因为30行代码的操作依赖于28行代码的结果。
 
@@ -106,6 +106,6 @@ java为了实现这一目标在编译时会对代码进行重新排序，从而�
 
 所以最终比较完美的DCL单例的解决方案只需要对变量修饰为volatile就可以了
 
-![](https://ws3.sinaimg.cn/large/006tNbRwgy1fy57irqfj9j30hz0b2gmq.jpg)
+![](http://www.kcblog.cn/img/2018-12-14/4.jpg)
 
 希望对你们能有帮助(*^__^*) 
