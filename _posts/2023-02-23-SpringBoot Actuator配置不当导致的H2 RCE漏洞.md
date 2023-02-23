@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      2023-02-23-SpringBoot Actuator配置不当导致的H2 RCE漏洞
+title:      SpringBoot Actuator配置不当导致的H2 RCE漏洞
 subtitle:   RCE漏洞
 date:       2023-02-23
 author:     KC
